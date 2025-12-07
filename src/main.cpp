@@ -239,8 +239,8 @@ void setup() {
   mqttReconnectTimer = xTimerCreate("mqttTimer", pdMS_TO_TICKS(20000), pdFALSE, (void*)0, reinterpret_cast<TimerCallbackFunction_t>(connectToMqtt));
   wifiReconnectTimer = xTimerCreate("wifiTimer", pdMS_TO_TICKS(2000), pdFALSE, (void*)0, reinterpret_cast<TimerCallbackFunction_t>(connectToWifi));
 
-  esp_sleep_enable_timer_wakeup(50000000ULL);
-  Serial.printf("Going to sleep every 500 seconds \n");
+  esp_sleep_enable_timer_wakeup(300000000ULL);
+  Serial.printf("Going to sleep every 300 seconds \n");
 
   WiFi.onEvent(WiFiEvent);
 
@@ -322,7 +322,7 @@ void loop()
     Serial.println("Going to sleep now");
    
     Serial.flush();
-    //esp_deep_sleep_start();
+    esp_deep_sleep_start();
     Serial.println("This will never be printed");
   }
   #if 0

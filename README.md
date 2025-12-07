@@ -8,7 +8,7 @@ BME680 connection
 
 GPS connection
 
-![alt text](image-1.xcf)
+![alt text](image-1.png)
 
 Power stage
 

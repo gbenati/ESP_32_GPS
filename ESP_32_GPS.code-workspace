@@ -4,5 +4,7 @@
 			"path": "."
 		}
 	],
-	"settings": {}
+	"settings": {
+		"codeQL.createQuery.qlPackLocation": "/home/gabriele/Documents/PlatformIO/Projects/ESP_32_GPS"
+	}
 }
