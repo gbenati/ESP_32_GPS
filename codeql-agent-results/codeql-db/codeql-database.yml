@@ -1,0 +1,45 @@
+---
+sourceLocationPrefix: /opt/src
+baselineLinesOfCode: 246
+unicodeNewlines: false
+columnKind: utf8
+primaryLanguage: cpp
+inProgress:
+  primaryLanguage: cpp
+  installedExtractors:
+    yaml:
+     - /root/codeql-home/codeql/yaml
+    html:
+     - /root/codeql-home/codeql/html
+    go:
+     - /root/codeql-home/codeql/go
+    xml:
+     - /root/codeql-home/codeql/xml
+    rust:
+     - /root/codeql-home/codeql/rust
+    csv:
+     - /root/codeql-home/codeql/csv
+    python:
+     - /root/codeql-home/codeql/python
+    javascript:
+     - /root/codeql-home/codeql/javascript
+    java:
+     - /root/codeql-home/codeql/java
+    cpp:
+     - /root/codeql-home/codeql/cpp
+    properties:
+     - /root/codeql-home/codeql/properties
+    csharp:
+     - /root/codeql-home/codeql/csharp
+    swift:
+     - /root/codeql-home/codeql/swift
+    actions:
+     - /root/codeql-home/codeql/actions
+    ruby:
+     - /root/codeql-home/codeql/ruby
+creationMetadata:
+  cliVersion: 2.23.6
+  creationTime: 2025-12-07T12:09:51.082489099Z
+overlayBaseDatabase: false
+overlayDatabase: false
+finalised: false

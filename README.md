@@ -17,3 +17,5 @@ Power stage
 Ohm law
 
 ![alt text](image-3.png)
+
+The ESP32 goes into sleep mode every 5 minutes to preserve battery

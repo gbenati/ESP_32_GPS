@@ -1,0 +1,1 @@
+{"timestamp":"2025-12-07T12:14:46.064535337Z","source":{"id":"cli/database/analyze","name":"CodeQL CLI: database analyze"},"plaintextMessage":"A fatal error occurred: Database at /opt/results/codeql-db needs to be finalized before running queries; please run codeql database finalize","severity":"error","visibility":{"telemetry":false},"attributes":{"exitCode":2}}

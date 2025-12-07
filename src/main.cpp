@@ -1,4 +1,8 @@
+/*
+Copyright Gabriele Benati
 
+
+*/
 #include <Arduino.h>
 #include <WiFi.h>
 extern "C" {

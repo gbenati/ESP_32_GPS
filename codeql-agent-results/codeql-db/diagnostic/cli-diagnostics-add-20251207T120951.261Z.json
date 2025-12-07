@@ -1,0 +1,1 @@
+{"timestamp":"2025-12-07T12:09:51.261514799Z","source":{"id":"cli/database/create","name":"CodeQL CLI: database create"},"plaintextMessage":"A fatal error occurred: Exit status 1 from command: [/root/codeql-home/codeql/cpp/tools/autobuild.sh]","severity":"error","visibility":{"telemetry":false},"attributes":{"exitCode":2}}
